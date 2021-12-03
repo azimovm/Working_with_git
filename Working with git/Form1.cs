@@ -16,5 +16,11 @@ namespace Working_with_git
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            label1.Text = "HELLO FROM LOCAL REPO";
+          
+        }
     }
 }
