@@ -22,5 +22,10 @@ namespace Working_with_git
             label1.Text = "HELLO FROM LOCAL REPO";
           
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            label2.Text = "Hello from Andrejs";
+        }
     }
 }
